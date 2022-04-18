@@ -1,0 +1,12 @@
+.youtube__cont {color: var(--white);
+    div {
+        .video{
+            display: flex;
+            h2 {white-space: pre-wrap; flex: 1 1 30%;}
+            img {flex: 1 1 70%;}
+        }
+        .img{
+            display: flex;
+        }
+    }
+}
