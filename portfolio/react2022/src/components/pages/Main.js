@@ -61,6 +61,7 @@ class Main extends React.Component {
     componentDidMount(){
         setTimeout(() => {
             this.setState({isLoading: false});
+            document.querySelector("body").style.background = "#000";
             this.getSite();
         }, 3000);
     }

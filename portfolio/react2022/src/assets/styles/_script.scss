@@ -22,3 +22,9 @@
     background: var(--light_bg);
     color: var(--black);
 }
+
+//animation
+.script__inner {
+    opacity: 0;
+    transform: translate(0, 100px);
+}

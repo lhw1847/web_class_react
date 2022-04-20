@@ -76,3 +76,9 @@
         }
     }
 }
+
+//animation
+.about__inner {
+    opacity: 0;
+    transform: translate(0, 100px);
+}

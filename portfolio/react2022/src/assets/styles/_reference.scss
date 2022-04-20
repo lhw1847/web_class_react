@@ -33,3 +33,9 @@
         td{border-color: var(--light_border);}
     }
 }
+
+//animation
+.refer__inner {
+    opacity: 0;
+    transform: translate(0, 100px);
+}

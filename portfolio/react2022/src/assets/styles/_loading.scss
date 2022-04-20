@@ -68,3 +68,18 @@
         filter: blur(4px);
     }
 }
+body.light{background: var(--light_bg);
+    #loading.loading__active{
+        background: var(--light_bg);
+        .loading__text span{
+            color: var(--black);
+        }
+    }
+}
+
+#loading.loading__active.light{
+    background: var(--light_bg);
+    .loading__text span{
+        color: var(--black);
+    }
+}
