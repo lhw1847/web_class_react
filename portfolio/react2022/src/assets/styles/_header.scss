@@ -10,6 +10,7 @@
     align-items: center;
     font-family: "Rajdhani";
     padding: 1rem;
+    z-index: 1000;
 
     .header__port, .header__menu {
         a {
@@ -82,4 +83,9 @@
 }
 @media (max-width: 600px){
     #header {background: rgba(0,0,0,0.3); border: 0;}
+}
+
+//header Animation
+#header {
+    top: -100%;
 }

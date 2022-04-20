@@ -11,7 +11,7 @@ function Reference(){
         <>
             <Header color="light" />
             <Contents>
-                <Title title={["reference","book"]} color="light" />
+                <Title title={["reference","book", "light"]}/>
                 <ReferCont color="light" />
                 <Contact />
             </Contents>

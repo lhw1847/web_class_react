@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ScriptCont() {
+function ScriptCont(props) {
   return (
-    <section className="script__cont">
+    <section className={`script__cont ${props.color}`}>
       <div className="script__inner">
           <div className="container">
-            <img src="/img/script01.png" alt="" />
+            <img src="/img/script01.png" alt="script01" />
             <span className='active'>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
               <h3>animationRequestFrame</h3>
             <div className='desc'>

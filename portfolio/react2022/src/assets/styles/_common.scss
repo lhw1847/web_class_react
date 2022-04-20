@@ -6,10 +6,6 @@
     // background: rgba(255,255,255, 0.3);
 }
 
-//layout
-#main {
-    background-color: var(--black);
-}
 
 //cont__title
 .cont__title {
@@ -19,6 +15,7 @@
     text-transform: uppercase;
     line-height: 0.85;
     color: var(--white);
+    background: var(--dark_bg);
 
     em {
         display: block;
@@ -49,4 +46,19 @@
 .light.cont__title{
     background: var(--light_bg);
     color: var(--black);
+}
+
+
+//title animation
+.cont__title{
+    strong {
+        display: block;
+        opacity: 0;
+        transform: translate(0, 100px);
+    }
+    em {
+        display: block;
+        opacity: 0;
+        transform: translate(0, 100px);
+    }
 }

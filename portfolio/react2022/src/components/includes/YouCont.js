@@ -7,17 +7,19 @@ function YouCont() {
           <div className="container">
             <div>
               <div className='video'>
+                <span>
                 <h2>웹표준 사이트
                     만들기
                 </h2>
-                <img src="./img/site01.jpg"></img>
+                </span>
+                <img src="./img/site01.jpg" alt="youtube"></img>
               </div>
               <div className="img">
-                <img src="./img/site01.jpg" alt="" />
+                <img src="./img/site01.jpg" alt="youtube" />
                 <table>
                   <colgroup>
-                    <col style={{width: "20%"}} />
-                    <col style={{width: "80%"}} />
+                    <col style={{width: "30%"}} />
+                    <col style={{width: "70%"}} />
                   </colgroup>
                   <tbody>
                     <tr>

@@ -11,7 +11,7 @@ function Script(){
         <>
             <Header color="light" />
             <Contents>
-                <Title title={["Script","book"]} color="light" />
+                <Title title={["Script","book", "light"]}/>
                 <ScriptCont color="light" />
                 <Contact />
             </Contents>
